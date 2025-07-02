@@ -6,7 +6,7 @@ from database import engine, SessionLocal
 from sqlalchemy.orm import Session
 from typing import List
 
-app = FastAPI()
+app = FastAPI();
 
 origins = [
     "http://localhost.tiangolo.com",
