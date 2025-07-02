@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Depends, status, HTTPException
+HGVFGYfrom fastapi import FastAPI, Depends, status, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 import models
 import schemas
@@ -6,7 +6,7 @@ from database import engine, SessionLocal
 from sqlalchemy.orm import Session
 from typing import List
 
-app = FastAPI();
+app = FastAPI()
 
 origins = [
     "http://localhost.tiangolo.com",
