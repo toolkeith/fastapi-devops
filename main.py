@@ -1,4 +1,4 @@
-HGVFGYfrom fastapi import FastAPI, Depends, status, HTTPException
+from fastapi import FastAPI, Depends, status, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 import models
 import schemas
